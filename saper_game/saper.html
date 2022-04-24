@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Игра Сапёр</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Сапёр</h1>
+    <div  class="div_settings">
+        <div class="div_flag">
+            <label>
+                <input id="check_fl" type="checkbox" /> Флажок</label>
+        </div>
+        <div class="div_sizes">
+            <h3>Размер поля: </h3>
+        </div>
+        <div>
+            <input id="slide" type="range" min="6" max="10" step="1" value="5">
+            <label for="layer" id="val"></label>
+            <button onclick="tableCreate()" class="new_game_button">Новая игра</button>
+            <button onclick="helpOpen()" class="help_button" id="help_b">Подсказка</button>
+            <span id="win"></span>
+        </div>
+    </div>
+    <br>
+    <div class="table_div">
+        <br id="next_elem">
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>

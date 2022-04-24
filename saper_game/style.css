@@ -1,0 +1,56 @@
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h3 {
+    color: darkblue;
+}
+
+.div_settings {
+    text-align: center;
+}
+
+.div_settings>div {
+    display: inline-block
+}
+
+.div_flag {
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+}
+
+.div_sizes {
+    padding: 10px;
+}
+
+span {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.new_table {
+    margin: auto;
+    text-align: center;
+    vertical-align: center;
+}
+
+.new_game_button,
+.help_button {
+    border-radius: 5px;
+    height: 45px;
+    width: 140px;
+    margin-left: 20px;
+    font-size: 18px;
+    background-color: gainsboro;
+    border: none;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.new_game_button:hover,
+.help_button:hover {
+    background-color: darkblue;
+    color: gainsboro
+}
